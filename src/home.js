@@ -10,13 +10,10 @@ export default function loadHomePage() {
     img.alt = "Restaurant Image"
     img.src = RestaurantImage
 
-    // const displayMessage = document.createElement('h1')
-    // displayMessage.textContent = "Welcome to Paul's Cafe"
-
     const description = document.createElement('p')
-    description.textContent = "Placeholder for Restaurant Description"
+    description.textContent = "Curated for the senses."
 
-    // homeDiv.appendChild(displayMessage)
+    
     homeDiv.appendChild(img)
     homeDiv.appendChild(description)
 
@@ -24,7 +21,11 @@ export default function loadHomePage() {
 
     const hourDiv = document.createElement('div')
     hourDiv.classList.add('hours')
-    hourDiv.textContent = "Hours"
+
+    const hourHeading = document.createElement('h2')
+    hourHeading.textContent = "Hours"
+    hourDiv.appendChild(hourHeading)
+    
 
     const operationalTimes = document.createElement('ul')
     operationalTimes.classList.add('operational-times')
