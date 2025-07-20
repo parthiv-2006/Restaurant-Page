@@ -108,3 +108,35 @@ button:active {
     list-style: none; /* This is already in your reset, but good to be explicit */
     padding: 0;
 }
+
+/* Styling for Menu Section */
+
+.menu {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 60vh;
+    border-radius: 18px;
+    background-color: burlywood;
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: 14px 2px 40px 2px  black
+}
+
+
+.menu h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 18px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+
+/* Styling for Contact Section */
